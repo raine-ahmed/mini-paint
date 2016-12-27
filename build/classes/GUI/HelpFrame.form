@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="673" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="340" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="helpTextArea">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="*************************Mini Paint***************************&#xa;&#xa;&#xa;###Features:&#xa; &#xa;1.Free Hand Drawing&#xa;&#xa;2.Basic Shapes:&#xa;    Line Drawing&#xa;    Rectangle Drawing&#xa;    Oval Drawing&#xa;    Rounded Rectangle Drawing&#xa;    Polygon Drawing&#xa;&#xa;3.Editing &#xa;    Undo&#xa;    Redo&#xa;    Erase&#xa;    Clear Canvas&#xa;&#xa;4.Color Options:&#xa;    Foreground Color setting&#xa;    Background Color setting&#xa;    Fill Color &#xa;5.Saving Options:&#xa;    Saving Drawn Image&#xa;    Opening Saved Image&#xa;&#xa;6.Cursor Position&#xa;&#xa;&#xa;###Description:&#xa;&#xa;--&gt;Free Hand Drawing: &#xa;   Its like a pencil tool. Press the mouse button and drag free hand to draw any type of shapes. Release the mouse button when drawing is finished.&#xa;&#xa;--&gt;Line Drawing:&#xa;   Tool for drawing a line. Select the starting point by pressing the mouse button, drag the mouse and to select the ending point release the mouse button.&#xa;&#xa;--&gt;Rectangle Drawing:&#xa;   Press the mouse button drag and release the button to draw a rectangle. Two types of rectangle are valid. To draw a fill rectangle tick the Fill color checkbox.&#xa;&#xa;--&gt;Oval Drawing:&#xa;   Press the mouse button , drag and release to draw an oval shape. Fill oval shape is available.&#xa;&#xa;--&gt;Rounded Rectangle:&#xa;    Press the mouse button , drag and release to draw an rounded rectangle. Fill rounded rectangle is available.&#xa;&#xa;--&gt;Polygon Drawing:&#xa;   Press the mouse button to select the 1st point of a polygon. then press again to set another node of a polygon. Press n times for a n noded polygon. Fill polygon is    available&#xa;&#xa;--&gt; Undo &amp; Redo:&#xa;   Press the button for undo or redo operation&#xa;&#xa;--&gt;Erase:&#xa;   To erase a certain part of an object, press hold and drag the cursor throug the part to be erased.&#xa;&#xa;--&gt;Clear: Press clear button to clear the canvas.&#xa;&#xa;--&gt;Save: &#xa;   Press save, type a name and press ok to save a drawn image.&#xa;--&gt;Open:&#xa;   To view a saved image, press open and select the file, click open.&#xa;&#xa;&#xa;********************************************************************************************************************************&#xa;For furthur query Contact the authors.&#xa;&#xa;Authors:&#xa;&#xa;Md.Faishal Yousuf   (yousuf094448@yahoo.com)&#xa;H.M. Raine Ahmed  (raine_ahmed@yahoo.com)&#xa;Farhat Aman           (aman.farhat@ymail.com)"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Text Cursor"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
